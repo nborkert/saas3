@@ -1,0 +1,24 @@
+# Example Terraform variables file
+# Copy this file to terraform.tfvars and update with your values
+
+project_id        = "your-gcp-project-id"
+region            = "us-central1"
+environment       = "development"
+github_repository = "nborkert/saas3"
+
+# Environment-specific settings
+
+# Development
+# min_instances = 0
+# max_instances = 5
+# memory        = "256Mi"
+
+# Staging
+# min_instances = 0
+# max_instances = 10
+# memory        = "512Mi"
+
+# Production
+# min_instances = 1
+# max_instances = 50
+# memory        = "1Gi"
